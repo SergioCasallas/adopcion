@@ -1,0 +1,61 @@
+@import './variables';
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+//! Font
+
+@mixin largeFont {
+  color: $fontPrimaryColor;
+  font-weight: bold;
+  font-size: $fontSizeLarge;
+  text-align: center;
+}
+
+@mixin mediumFont {
+  color: $fontPrimaryColor;
+  font-weight: bold;
+  font-size: $fontSizeMedium;
+  text-align: center;
+}
+
+@mixin smallFont {
+  color: $fontPrimaryColor;
+  font-weight: bold;
+  font-size: $fontSizeSmall;
+  text-align: center;
+}
+
+// ! Animation
+
+@mixin fade-left {
+  animation-name: fade-left;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+
+@keyframes fade-left {
+  from {
+    transform: translateX(-100px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@mixin fade-right {
+  animation-name: fade-right;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+
+@keyframes fade-right {
+  from {
+    transform: translateX(50px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}

@@ -1,0 +1,23 @@
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+
+.selection {
+  background-color: $primaryColor;
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+
+  &__items {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 100px 0;
+    background-color: red;
+  }
+
+  &__title {
+    @include mediumFont;
+    margin: 0;
+    padding: 50px 0;
+  }
+}

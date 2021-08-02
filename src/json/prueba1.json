@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "perro": [
+        {
+          "nombre": "X",
+          "image": "X",
+          "genero": "x",
+          "tiempo": "5",
+          "vacunas": true,
+          "enfermedades": true,
+          "image": "../assets/images/flamingo-6385008_1920.jpg"
+        }
+      ]
+    },
+    {
+      "gatos": [
+        {
+          "nombre": "X",
+          "image": "X",
+          "genero": "x",
+          "tiempo": "5",
+          "vacunas": true,
+          "enfermedades": true
+        }
+      ],
+      "image": "../assets/images/flamingo-6385008_1920.jpg"
+    },
+    {
+      "iguanas": [
+        {
+          "nombre": "X",
+          "image": "X",
+          "genero": "x",
+          "tiempo": "5",
+          "vacunas": true,
+          "enfermedades": true
+        }
+      ],
+      "image": "../assets/images/flamingo-6385008_1920.jpg"
+    },
+    {
+      "pajaros": [
+        {
+          "nombre": "X",
+          "image": "X",
+          "genero": "x",
+          "tiempo": "5",
+          "vacunas": true,
+          "enfermedades": true
+        }
+      ],
+      "image": "../assets/images/flamingo-6385008_1920.jpg"
+    },
+    {
+      "hamster": [
+        {
+          "nombre": "X",
+          "image": "X",
+          "genero": "x",
+          "tiempo": "5",
+          "vacunas": true,
+          "enfermedades": true
+        }
+      ],
+      "image": "../assets/images/flamingo-6385008_1920.jpg"
+    },
+    {
+      "peces": [
+        {
+          "nombre": "X",
+          "image": "X",
+          "genero": "x",
+          "tiempo": "5",
+          "vacunas": true,
+          "enfermedades": true
+        }
+      ],
+      "image": "../assets/images/flamingo-6385008_1920.jpg"
+    }
+  ]
+}
