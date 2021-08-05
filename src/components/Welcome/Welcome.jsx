@@ -12,7 +12,9 @@ const Welcome = () => {
         Quieres Adoptar
       </span>
 
-      <Link to='/selection' className='welcome__button'>Empezar</Link>
+      <Link to='/selection' className='welcome__button'>
+        Empezar
+      </Link>
       <span className='welcome__shape welcome__shape-1'></span>
       <span className='welcome__shape welcome__shape-2'></span>
       <span className='welcome__shape welcome__shape-3'></span>

@@ -2,28 +2,33 @@
 @import '../abstracts/variables';
 
 .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
+  margin-top: 2px;
   width: 100%;
+
+  &__link {
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+  }
 
   &__content-images {
     width: 100px;
-    margin: 0;
-    background-color: red;
+    margin: 0 auto;
   }
 
   &__image {
     object-fit: cover;
     border-radius: 100%;
     width: 100%;
+    background-color: yellowgreen;
+    height: 100%;
   }
 
   &__name {
-    margin: 10px 0;
+    display: block;
     @include smallFont;
+    margin: 10px 0;
     text-transform: capitalize;
   }
 }
+

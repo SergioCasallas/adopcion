@@ -5,9 +5,16 @@
       "imageEspecie": "https://picsum.photos/300/300",
       "cantidad": [
         {
-          "nombre": "X",
-          "image": "X",
-          "genero": "x",
+          "nombre": "Tommy",
+          "genero": "Masculino",
+          "tiempo": "5",
+          "vacunas": "Si",
+          "enfermedades": "Calvicie`",
+          "image": "https://picsum.photos/300/300"
+        },
+        {
+          "nombre": "perro2",
+          "genero": "F",
           "tiempo": "5",
           "vacunas": true,
           "enfermedades": true,
@@ -21,7 +28,6 @@
       "cantidad": [
         {
           "nombre": "X",
-          "image": "X",
           "genero": "x",
           "tiempo": "5",
           "vacunas": true,
@@ -36,7 +42,6 @@
       "cantidad": [
         {
           "nombre": "X",
-          "image": "X",
           "genero": "x",
           "tiempo": "5",
           "vacunas": true,
@@ -51,7 +56,6 @@
       "cantidad": [
         {
           "nombre": "X",
-          "image": "X",
           "genero": "x",
           "tiempo": "5",
           "vacunas": true,
@@ -66,7 +70,6 @@
       "cantidad": [
         {
           "nombre": "X",
-          "image": "X",
           "genero": "x",
           "tiempo": "5",
           "vacunas": true,
@@ -81,7 +84,6 @@
       "cantidad": [
         {
           "nombre": "X",
-          "image": "X",
           "genero": "x",
           "tiempo": "5",
           "vacunas": true,
